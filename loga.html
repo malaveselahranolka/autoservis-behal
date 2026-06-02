@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Autoservis Běhal – 10 návrhů loga</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --brand:#2e6f9e; --brand-d:#245a82; --brand-l:#eaf2f8;
+    --accent:#3f9e8c; --ink:#1d2a38; --muted:#64748b;
+    --bg:#f4f6f9; --line:#e2e8f0; --dark:#1f3a52;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;padding:48px 24px}
+  .wrap{max-width:1180px;margin:0 auto}
+  h1{font-family:'Oswald';font-weight:600;font-size:2rem;margin-bottom:6px}
+  .sub{color:var(--muted);margin-bottom:36px}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+  .item{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 14px 40px -26px rgba(31,58,82,.4)}
+  .tag{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--line)}
+  .tag .num{font-family:'Oswald';font-weight:600;color:var(--brand);font-size:1.05rem}
+  .tag .name{font-size:.85rem;color:var(--muted)}
+  .stage{display:grid;grid-template-columns:1fr 1fr}
+  .light,.darkbg{display:flex;align-items:center;justify-content:center;padding:38px 22px;min-height:150px}
+  .light{background:#fff}
+  .darkbg{background:var(--dark)}
+  .logo{height:62px;width:auto;max-width:100%}
+  .mark{height:64px;width:64px}
+  @media(max-width:760px){.grid{grid-template-columns:1fr}}
+  /* shared svg helpers */
+  .tx-d{fill:var(--ink)} .tx-l{fill:#fff}
+  .sub-d{fill:var(--muted)} .sub-l{fill:#9db8cc}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Autoservis Běhal — 10 návrhů loga</h1>
+  <p class="sub">Každé logo na světlém i tmavém pozadí. Řekni číslo, které se ti líbí, a doladím ho (barvy, font, ikonu) a nasadím na web.</p>
+  <div class="grid">
+
+  <!-- 1. Klíč + ozubené kolo, horizontální wordmark -->
+  <div class="item">
+    <div class="tag"><span class="num">01</span><span class="name">Klíč v ozubeném kole · wordmark</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="logo" viewBox="0 0 360 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(8,13)">
+            <circle cx="32" cy="32" r="31" fill="none" stroke="#2e6f9e" stroke-width="4"/>
+            <g fill="#2e6f9e">
+              <rect x="29" y="-2" width="6" height="9" rx="2"/><rect x="29" y="57" width="6" height="9" rx="2"/>
+              <rect x="-2" y="29" width="9" height="6" rx="2"/><rect x="57" y="29" width="9" height="6" rx="2"/>
+              <rect x="6" y="6" width="6" height="9" rx="2" transform="rotate(45 9 10)"/>
+              <rect x="52" y="49" width="6" height="9" rx="2" transform="rotate(45 55 53)"/>
+              <rect x="52" y="6" width="6" height="9" rx="2" transform="rotate(-45 55 10)"/>
+              <rect x="6" y="49" width="6" height="9" rx="2" transform="rotate(-45 9 53)"/>
+            </g>
+            <path d="M40 22a8 8 0 0 0-10.2 10.2L19 43l5 5 10.8-10.8A8 8 0 0 0 45 27l-4.5 4.5-3.3-3.3L42 23z" fill="#245a82"/>
+          </g>
+          <text x="84" y="42" font-family="Oswald" font-weight="700" font-size="27" class="tx-d" letter-spacing="1">AUTOSERVIS BĚHAL</text>
+          <text x="85" y="62" font-family="Inter" font-weight="600" font-size="12.5" class="sub-d" letter-spacing="3">BRUNTÁL · OD ROKU 2016</text>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="logo" viewBox="0 0 360 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(8,13)">
+            <circle cx="32" cy="32" r="31" fill="none" stroke="#5fa3cf" stroke-width="4"/>
+            <g fill="#5fa3cf">
+              <rect x="29" y="-2" width="6" height="9" rx="2"/><rect x="29" y="57" width="6" height="9" rx="2"/>
+              <rect x="-2" y="29" width="9" height="6" rx="2"/><rect x="57" y="29" width="9" height="6" rx="2"/>
+              <rect x="6" y="6" width="6" height="9" rx="2" transform="rotate(45 9 10)"/>
+              <rect x="52" y="49" width="6" height="9" rx="2" transform="rotate(45 55 53)"/>
+              <rect x="52" y="6" width="6" height="9" rx="2" transform="rotate(-45 55 10)"/>
+              <rect x="6" y="49" width="6" height="9" rx="2" transform="rotate(-45 9 53)"/>
+            </g>
+            <path d="M40 22a8 8 0 0 0-10.2 10.2L19 43l5 5 10.8-10.8A8 8 0 0 0 45 27l-4.5 4.5-3.3-3.3L42 23z" fill="#fff"/>
+          </g>
+          <text x="84" y="42" font-family="Oswald" font-weight="700" font-size="27" class="tx-l" letter-spacing="1">AUTOSERVIS BĚHAL</text>
+          <text x="85" y="62" font-family="Inter" font-weight="600" font-size="12.5" class="sub-l" letter-spacing="3">BRUNTÁL · OD ROKU 2016</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Monogram AB v zaobleném čtverci -->
+  <div class="item">
+    <div class="tag"><span class="num">02</span><span class="name">Monogram „AB" · app ikona</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2e6f9e"/><stop offset="1" stop-color="#245a82"/></linearGradient></defs>
+          <rect x="10" y="13" width="64" height="64" rx="17" fill="url(#g2)"/>
+          <text x="42" y="60" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="38" fill="#fff" letter-spacing="-1">AB</text>
+          <rect x="24" y="66" width="36" height="4" rx="2" fill="#3f9e8c"/>
+          <text x="90" y="44" font-family="Oswald" font-weight="600" font-size="25" class="tx-d">AUTOSERVIS</text>
+          <text x="90" y="68" font-family="Oswald" font-weight="700" font-size="25" fill="#2e6f9e">BĚHAL</text>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="13" width="64" height="64" rx="17" fill="#fff"/>
+          <text x="42" y="60" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="38" fill="#245a82" letter-spacing="-1">AB</text>
+          <rect x="24" y="66" width="36" height="4" rx="2" fill="#3f9e8c"/>
+          <text x="90" y="44" font-family="Oswald" font-weight="600" font-size="25" class="tx-l">AUTOSERVIS</text>
+          <text x="90" y="68" font-family="Oswald" font-weight="700" font-size="25" fill="#5fa3cf">BĚHAL</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Kruhový odznak -->
+  <div class="item">
+    <div class="tag"><span class="num">03</span><span class="name">Kruhový odznak · emblém</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="mark" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="57" fill="#1f3a52"/>
+          <circle cx="60" cy="60" r="50" fill="none" stroke="#3f9e8c" stroke-width="2"/>
+          <path id="c3t" d="M60 18a42 42 0 0 1 0 84a42 42 0 0 1 0-84" fill="none"/>
+          <text font-family="Oswald" font-weight="600" font-size="11.5" fill="#cdd9e4" letter-spacing="3.5"><textPath href="#c3t" startOffset="6%">AUTOSERVIS BĚHAL · BRUNTÁL ·</textPath></text>
+          <path d="M44 70h-6v-9l3-8h22l4 8h6v9h-4" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="44" cy="70" r="3.4" fill="#fff"/><circle cx="66" cy="70" r="3.4" fill="#fff"/>
+          <path d="M68 44l-12 12" stroke="#3f9e8c" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="mark" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="57" fill="#2e6f9e"/>
+          <circle cx="60" cy="60" r="50" fill="none" stroke="#bfe3da" stroke-width="2"/>
+          <text font-family="Oswald" font-weight="600" font-size="11.5" fill="#eaf2f8" letter-spacing="3.5"><textPath href="#c3t" startOffset="6%">AUTOSERVIS BĚHAL · BRUNTÁL ·</textPath></text>
+          <path d="M44 70h-6v-9l3-8h22l4 8h6v9h-4" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="44" cy="70" r="3.4" fill="#fff"/><circle cx="66" cy="70" r="3.4" fill="#fff"/>
+          <path d="M68 44l-12 12" stroke="#bfe3da" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Píst -->
+  <div class="item">
+    <div class="tag"><span class="num">04</span><span class="name">Píst · stack wordmark</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="logo" viewBox="0 0 300 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(20,10)" stroke="#2e6f9e" stroke-width="4" fill="none" stroke-linejoin="round">
+            <rect x="8" y="2" width="34" height="22" rx="4" fill="#eaf2f8"/>
+            <line x1="16" y1="9" x2="34" y2="9"/><line x1="16" y1="16" x2="34" y2="16"/>
+            <path d="M19 24v14a6 6 0 0 0 6 6h0a6 6 0 0 0 6-6V24"/>
+            <line x1="25" y1="44" x2="25" y2="64"/>
+            <circle cx="25" cy="68" r="5" fill="#3f9e8c" stroke="#245a82"/>
+          </g>
+          <text x="78" y="44" font-family="Oswald" font-weight="700" font-size="26" class="tx-d">AUTOSERVIS</text>
+          <text x="78" y="70" font-family="Oswald" font-weight="700" font-size="26" fill="#2e6f9e" letter-spacing="6">BĚHAL</text>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="logo" viewBox="0 0 300 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(20,10)" stroke="#5fa3cf" stroke-width="4" fill="none" stroke-linejoin="round">
+            <rect x="8" y="2" width="34" height="22" rx="4" fill="#2e6f9e"/>
+            <line x1="16" y1="9" x2="34" y2="9"/><line x1="16" y1="16" x2="34" y2="16"/>
+            <path d="M19 24v14a6 6 0 0 0 6 6h0a6 6 0 0 0 6-6V24"/>
+            <line x1="25" y1="44" x2="25" y2="64"/>
+            <circle cx="25" cy="68" r="5" fill="#3f9e8c" stroke="#bfe3da"/>
+          </g>
+          <text x="78" y="44" font-family="Oswald" font-weight="700" font-size="26" class="tx-l">AUTOSERVIS</text>
+          <text x="78" y="70" font-family="Oswald" font-weight="700" font-size="26" fill="#5fa3cf" letter-spacing="6">BĚHAL</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Štít s klíčem (důvěra) -->
+  <div class="item">
+    <div class="tag"><span class="num">05</span><span class="name">Štít s klíčem · důvěra</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(14,11)">
+            <path d="M32 0 60 9v22c0 19-14 30-28 37C18 61 4 50 4 31V9z" fill="#2e6f9e"/>
+            <path d="M32 0 60 9v22c0 19-14 30-28 37z" fill="#245a82"/>
+            <path d="M40 24a8 8 0 0 0-10.4 10.4L18 46l5 5 11.6-11.6A8 8 0 0 0 46 29l-4.6 4.6-3.4-3.4z" fill="#fff"/>
+          </g>
+          <text x="92" y="44" font-family="Oswald" font-weight="700" font-size="24" class="tx-d" letter-spacing=".5">AUTOSERVIS BĚHAL</text>
+          <text x="93" y="64" font-family="Inter" font-weight="600" font-size="11.5" fill="#3f9e8c" letter-spacing="2.5">SPOLEHLIVÝ SERVIS · BRUNTÁL</text>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(14,11)">
+            <path d="M32 0 60 9v22c0 19-14 30-28 37C18 61 4 50 4 31V9z" fill="#5fa3cf"/>
+            <path d="M32 0 60 9v22c0 19-14 30-28 37z" fill="#2e6f9e"/>
+            <path d="M40 24a8 8 0 0 0-10.4 10.4L18 46l5 5 11.6-11.6A8 8 0 0 0 46 29l-4.6 4.6-3.4-3.4z" fill="#fff"/>
+          </g>
+          <text x="92" y="44" font-family="Oswald" font-weight="700" font-size="24" class="tx-l" letter-spacing=".5">AUTOSERVIS BĚHAL</text>
+          <text x="93" y="64" font-family="Inter" font-weight="600" font-size="11.5" fill="#7fd3c4" letter-spacing="2.5">SPOLEHLIVÝ SERVIS · BRUNTÁL</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Tachometr minimal -->
+  <div class="item">
+    <div class="tag"><span class="num">06</span><span class="name">Tachometr · minimal</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(12,13)" fill="none" stroke="#2e6f9e" stroke-width="4.5" stroke-linecap="round">
+            <path d="M6 52a30 30 0 1 1 52 0"/>
+            <path d="M32 32 46 24" stroke="#3f9e8c"/>
+            <circle cx="32" cy="32" r="4.5" fill="#245a82" stroke="none"/>
+          </g>
+          <text x="78" y="44" font-family="Oswald" font-weight="700" font-size="25" class="tx-d">AUTOSERVIS BĚHAL</text>
+          <text x="79" y="64" font-family="Inter" font-weight="600" font-size="11.5" class="sub-d" letter-spacing="2">DIAGNOSTIKA · OPRAVY · BG CARE</text>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(12,13)" fill="none" stroke="#5fa3cf" stroke-width="4.5" stroke-linecap="round">
+            <path d="M6 52a30 30 0 1 1 52 0"/>
+            <path d="M32 32 46 24" stroke="#7fd3c4"/>
+            <circle cx="32" cy="32" r="4.5" fill="#fff" stroke="none"/>
+          </g>
+          <text x="78" y="44" font-family="Oswald" font-weight="700" font-size="25" class="tx-l">AUTOSERVIS BĚHAL</text>
+          <text x="79" y="64" font-family="Inter" font-weight="600" font-size="11.5" class="sub-l" letter-spacing="2">DIAGNOSTIKA · OPRAVY · BG CARE</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Auto silueta + podtržení -->
+  <div class="item">
+    <div class="tag"><span class="num">07</span><span class="name">Silueta auta · dynamický</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(12,20)">
+            <path d="M2 30h6l6-16a8 8 0 0 1 7-4h22a8 8 0 0 1 6.5 3.4L60 28l8 2a4 4 0 0 1 3 4v6h-7" fill="#eaf2f8" stroke="#2e6f9e" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="20" cy="40" r="7" fill="#fff" stroke="#245a82" stroke-width="3.5"/>
+            <circle cx="55" cy="40" r="7" fill="#fff" stroke="#245a82" stroke-width="3.5"/>
+            <path d="M0 52h74" stroke="#3f9e8c" stroke-width="4" stroke-linecap="round"/>
+          </g>
+          <text x="98" y="44" font-family="Oswald" font-weight="700" font-size="25" class="tx-d">AUTOSERVIS BĚHAL</text>
+          <text x="99" y="64" font-family="Inter" font-weight="600" font-size="11.5" class="sub-d" letter-spacing="2.5">OSOBNÍ · DODÁVKOVÁ · UŽITKOVÁ</text>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(12,20)">
+            <path d="M2 30h6l6-16a8 8 0 0 1 7-4h22a8 8 0 0 1 6.5 3.4L60 28l8 2a4 4 0 0 1 3 4v6h-7" fill="#2e6f9e" stroke="#5fa3cf" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="20" cy="40" r="7" fill="#1f3a52" stroke="#5fa3cf" stroke-width="3.5"/>
+            <circle cx="55" cy="40" r="7" fill="#1f3a52" stroke="#5fa3cf" stroke-width="3.5"/>
+            <path d="M0 52h74" stroke="#7fd3c4" stroke-width="4" stroke-linecap="round"/>
+          </g>
+          <text x="98" y="44" font-family="Oswald" font-weight="700" font-size="25" class="tx-l">AUTOSERVIS BĚHAL</text>
+          <text x="99" y="64" font-family="Inter" font-weight="600" font-size="11.5" class="sub-l" letter-spacing="2.5">OSOBNÍ · DODÁVKOVÁ · UŽITKOVÁ</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Zkřížený klíč a šroubovák v hexagonu -->
+  <div class="item">
+    <div class="tag"><span class="num">08</span><span class="name">Klíč &amp; šroubovák · hexagon</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(12,9)">
+            <path d="M34 1 64 18v36L34 71 4 54V18z" fill="#1f3a52"/>
+            <path d="M34 1 64 18v36L34 71z" fill="#2e6f9e"/>
+            <g transform="translate(34,36) rotate(45)" stroke="#fff" stroke-width="3.4" stroke-linecap="round">
+              <path d="M-16 0a6 6 0 0 1 8.5-5.5L-2 0l-5.5 5.5A6 6 0 0 1-16 0z" fill="#fff" stroke="none"/>
+              <line x1="-2" y1="0" x2="16" y2="0"/>
+            </g>
+            <g transform="translate(34,36) rotate(-45)" stroke="#3f9e8c" stroke-width="3.4" stroke-linecap="round">
+              <line x1="-16" y1="0" x2="9" y2="0"/>
+              <path d="M9-3 16 0l-7 3z" fill="#3f9e8c" stroke="none"/>
+            </g>
+          </g>
+          <text x="92" y="44" font-family="Oswald" font-weight="700" font-size="24" class="tx-d">AUTOSERVIS BĚHAL</text>
+          <text x="93" y="64" font-family="Inter" font-weight="600" font-size="11.5" class="sub-d" letter-spacing="2.5">PROFESIONÁLNÍ AUTOSERVIS</text>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(12,9)">
+            <path d="M34 1 64 18v36L34 71 4 54V18z" fill="#5fa3cf"/>
+            <path d="M34 1 64 18v36L34 71z" fill="#2e6f9e"/>
+            <g transform="translate(34,36) rotate(45)" stroke="#fff" stroke-width="3.4" stroke-linecap="round">
+              <path d="M-16 0a6 6 0 0 1 8.5-5.5L-2 0l-5.5 5.5A6 6 0 0 1-16 0z" fill="#fff" stroke="none"/>
+              <line x1="-2" y1="0" x2="16" y2="0"/>
+            </g>
+            <g transform="translate(34,36) rotate(-45)" stroke="#bfe3da" stroke-width="3.4" stroke-linecap="round">
+              <line x1="-16" y1="0" x2="9" y2="0"/>
+              <path d="M9-3 16 0l-7 3z" fill="#bfe3da" stroke="none"/>
+            </g>
+          </g>
+          <text x="92" y="44" font-family="Oswald" font-weight="700" font-size="24" class="tx-l">AUTOSERVIS BĚHAL</text>
+          <text x="93" y="64" font-family="Inter" font-weight="600" font-size="11.5" class="sub-l" letter-spacing="2.5">PROFESIONÁLNÍ AUTOSERVIS</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9. Čistý wordmark s ozubeným tečkou -->
+  <div class="item">
+    <div class="tag"><span class="num">09</span><span class="name">Čistý wordmark · ozubená tečka</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="logo" viewBox="0 0 330 90" xmlns="http://www.w3.org/2000/svg">
+          <text x="16" y="40" font-family="Oswald" font-weight="600" font-size="20" class="sub-d" letter-spacing="9">AUTOSERVIS</text>
+          <text x="16" y="74" font-family="Oswald" font-weight="700" font-size="40" fill="#2e6f9e" letter-spacing="1">BĚHAL</text>
+          <g transform="translate(176,55)" fill="#3f9e8c">
+            <circle cx="0" cy="0" r="9"/>
+            <g>
+              <rect x="-2" y="-15" width="4" height="6" rx="1"/><rect x="-2" y="9" width="4" height="6" rx="1"/>
+              <rect x="-15" y="-2" width="6" height="4" rx="1"/><rect x="9" y="-2" width="6" height="4" rx="1"/>
+            </g>
+            <circle cx="0" cy="0" r="3.4" fill="#fff"/>
+          </g>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="logo" viewBox="0 0 330 90" xmlns="http://www.w3.org/2000/svg">
+          <text x="16" y="40" font-family="Oswald" font-weight="600" font-size="20" class="sub-l" letter-spacing="9">AUTOSERVIS</text>
+          <text x="16" y="74" font-family="Oswald" font-weight="700" font-size="40" fill="#fff" letter-spacing="1">BĚHAL</text>
+          <g transform="translate(176,55)" fill="#7fd3c4">
+            <circle cx="0" cy="0" r="9"/>
+            <g>
+              <rect x="-2" y="-15" width="4" height="6" rx="1"/><rect x="-2" y="9" width="4" height="6" rx="1"/>
+              <rect x="-15" y="-2" width="6" height="4" rx="1"/><rect x="9" y="-2" width="6" height="4" rx="1"/>
+            </g>
+            <circle cx="0" cy="0" r="3.4" fill="#1f3a52"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. Maska/mřížka chladiče -->
+  <div class="item">
+    <div class="tag"><span class="num">10</span><span class="name">Maska chladiče · abstrakt</span></div>
+    <div class="stage">
+      <div class="light">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(14,16)">
+            <rect x="0" y="0" width="60" height="58" rx="14" fill="#2e6f9e"/>
+            <g stroke="#fff" stroke-width="4" stroke-linecap="round">
+              <line x1="14" y1="16" x2="46" y2="16"/>
+              <line x1="14" y1="29" x2="46" y2="29"/>
+              <line x1="14" y1="42" x2="46" y2="42"/>
+            </g>
+            <circle cx="30" cy="29" r="7" fill="#2e6f9e" stroke="#3f9e8c" stroke-width="3.5"/>
+          </g>
+          <text x="92" y="44" font-family="Oswald" font-weight="700" font-size="25" class="tx-d">AUTOSERVIS BĚHAL</text>
+          <text x="93" y="64" font-family="Inter" font-weight="600" font-size="11.5" class="sub-d" letter-spacing="2.5">SERVISNÍ PARTNER BG · BRUNTÁL</text>
+        </svg>
+      </div>
+      <div class="darkbg">
+        <svg class="logo" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(14,16)">
+            <rect x="0" y="0" width="60" height="58" rx="14" fill="#fff"/>
+            <g stroke="#2e6f9e" stroke-width="4" stroke-linecap="round">
+              <line x1="14" y1="16" x2="46" y2="16"/>
+              <line x1="14" y1="29" x2="46" y2="29"/>
+              <line x1="14" y1="42" x2="46" y2="42"/>
+            </g>
+            <circle cx="30" cy="29" r="7" fill="#fff" stroke="#3f9e8c" stroke-width="3.5"/>
+          </g>
+          <text x="92" y="44" font-family="Oswald" font-weight="700" font-size="25" class="tx-l">AUTOSERVIS BĚHAL</text>
+          <text x="93" y="64" font-family="Inter" font-weight="600" font-size="11.5" class="sub-l" letter-spacing="2.5">SERVISNÍ PARTNER BG · BRUNTÁL</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+</body>
+</html>
