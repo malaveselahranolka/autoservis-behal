@@ -1,0 +1,26 @@
+<svg viewBox="0 0 360 92" width="720" height="184" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .t1{font-family:'Oswald','Arial Narrow',sans-serif;font-weight:700}
+    .t2{font-family:'Inter',Arial,sans-serif;font-weight:600}
+  </style>
+  <g transform="translate(13,14)">
+    <g fill="#2e6f9e">
+      <rect x="29" y="0" width="6" height="8" rx="2"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(30 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(60 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(90 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(120 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(150 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(180 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(210 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(240 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(270 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(300 32 32)"/>
+      <rect x="29" y="0" width="6" height="8" rx="2" transform="rotate(330 32 32)"/>
+    </g>
+    <circle cx="32" cy="32" r="24" fill="none" stroke="#2e6f9e" stroke-width="5"/>
+    <path d="M42 20.5a9 9 0 0 0-11.6 11.6L17.5 45l5.5 5.5L36 37.6A9 9 0 0 0 47.5 26l-5.2 5.2-3.5-3.5 5.2-5.2z" fill="#245a82"/>
+  </g>
+  <text x="90" y="42" class="t1" font-size="27" fill="#1d2a38" letter-spacing=".5">AUTOSERVIS BĚHAL</text>
+  <text x="91" y="63" class="t2" font-size="12" fill="#64748b" letter-spacing="5">BRUNTÁL</text>
+</svg>
